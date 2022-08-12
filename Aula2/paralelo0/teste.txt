@@ -1,0 +1,3 @@
+compila tudo -=> javac *.java
+
+roda no compilador java do vscode.

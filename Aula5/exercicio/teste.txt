@@ -1,0 +1,4 @@
+mesmos comandos do ex1 da aula 4, porem inserir a porta junto 
+EX: 
+=> java MulticastPeer.java "Teste 1" 228.6.5.7 6780
+=> java MulticastPeer.java "Teste 2" 228.6.5.7 6781

@@ -1,0 +1,4 @@
+grant codeBase "file:D:\faculdade\CDP\Exercicio2/computeEngine/" {
+    permission java.net.SocketPermission "localhost:*", "connect,resolve";
+    permission java.security.AllPermission;
+};

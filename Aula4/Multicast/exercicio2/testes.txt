@@ -1,0 +1,5 @@
+Compilar os dois  =>  javac *.java;
+
+iniciar o Destino primeiro =>  java MulticastIPDest.java "239.253.5.6"
+
+Iniciar o  Envia =>  java MulticastIPEnvia.java "239.253.5.6" "Gustavo" 10 1000 "Sarrrve pessoal"

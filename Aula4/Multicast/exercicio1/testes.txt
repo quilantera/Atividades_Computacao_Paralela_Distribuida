@@ -1,0 +1,10 @@
+Primeiro compila geral => javac *.java
+
+executa o multicastPeer1 em dois terminais diferentes 
+=> java MulticastPeer1.java "Teste 1" 228.6.5.7
+=> java MulticastPeer1.java "Teste 2" 228.6.5.7
+
+Faz a mesma coisa no multicastPeer2 porem coloque ip diferente do MulticastPeer1
+
+=> java MulticastPeer2.java "Teste 3" 229.6.33.7
+=> java MulticastPeer2.java "Teste 4" 229.6.33.7

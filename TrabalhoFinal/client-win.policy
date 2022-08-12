@@ -1,0 +1,4 @@
+grant codeBase "file<yourFile>TrabalhoFinal" {
+    permission java.net.SocketPermission "localhost:*", "connect,resolve";
+    permission java.security.AllPermission;
+};

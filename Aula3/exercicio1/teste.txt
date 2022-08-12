@@ -1,0 +1,12 @@
+primeiro compila tudo => javac *.java
+
+abre 3 terminais para os receptores, cada 1 uma porta diferente;
+java Receptor.java 6789
+java Receptor.java 6790
+java Receptor.java 6791
+
+Depois abra outro terminal e executa o direcionador com a porta do emissor e as 3 portas dos receptores:
+java Direcionador.java 7896 6789 6790 6791
+
+por fim abra o ultimo terminal para o emissor 
+java Emissor.java "Ola mundo" 7896
